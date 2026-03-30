@@ -1,4 +1,4 @@
-"""CLI wrapper for the dianpushuju skill."""
+"""CLI wrapper for the shop_data_skill package."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from dianpushuju.main import main
+from shop_data_skill.main import main
 
 
 if __name__ == "__main__":

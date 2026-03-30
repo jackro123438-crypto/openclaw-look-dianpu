@@ -14,15 +14,15 @@ def print_usage() -> None:
     print(
         """
 Usage:
-  python scripts/run_dianpushuju.py collect amap
-  python scripts/run_dianpushuju.py collect bmap
-  python scripts/run_dianpushuju.py collect all
-  python scripts/run_dianpushuju.py test amap
-  python scripts/run_dianpushuju.py test bmap
-  python scripts/run_dianpushuju.py clean
-  python scripts/run_dianpushuju.py export
-  python scripts/run_dianpushuju.py stats
-  python scripts/run_dianpushuju.py all
+  python scripts/run_shop_data_skill.py collect amap
+  python scripts/run_shop_data_skill.py collect bmap
+  python scripts/run_shop_data_skill.py collect all
+  python scripts/run_shop_data_skill.py test amap
+  python scripts/run_shop_data_skill.py test bmap
+  python scripts/run_shop_data_skill.py clean
+  python scripts/run_shop_data_skill.py export
+  python scripts/run_shop_data_skill.py stats
+  python scripts/run_shop_data_skill.py all
 """
     )
 

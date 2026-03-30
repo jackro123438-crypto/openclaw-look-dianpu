@@ -7,4 +7,5 @@ data/
 *.db
 *.sqlite
 *.xlsx
+*.geojson
 *.log
